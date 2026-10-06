@@ -180,6 +180,8 @@ pub(crate) fn write_value<P: AsRef<Path>, T: fmt::Display>(path: P, value: T) ->
 mod cgroups;
 pub use crate::cgroups::*;
 
+pub mod consoles;
+
 mod crypto;
 pub use crate::crypto::*;
 
